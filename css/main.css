@@ -49,11 +49,19 @@ img:nth-child(4) {
 @media only screen and (min-width: 38em) {
 
   img {
-    width: 32%;
+    width: 32.2%;
   }
 
   img:nth-child(1) {
     display: none;
+  }
+
+  img:last-child {
+    display: inline-block;
+  }
+
+  img:nth-child(2) {
+    display: inline-block;
   }
 
 }
@@ -65,11 +73,28 @@ img:nth-child(4) {
   }
 
   img {
-    width: 24%;
+    width: 24.5%;
   }
 
   img:nth-child(1) {
     display: inline-block;
+  }
+
+  img:nth-child(2) {
+    display: inline-block;
+  }
+
+  img:last-child {
+    display: inline-block;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  body {
+    margin-left: 2rem;
+    margin-right: 1rem;
   }
 
 }
